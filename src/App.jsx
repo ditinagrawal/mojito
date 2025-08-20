@@ -4,6 +4,7 @@ import React from "react";
 import { About } from "./components/About";
 import { Art } from "./components/Art";
 import { Cocktails } from "./components/Cocktails";
+import { Contact } from "./components/Contact";
 import { Hero } from "./components/Hero";
 import { Menu } from "./components/Menu";
 import { Navbar } from "./components/Navbar";
@@ -19,6 +20,7 @@ const App = () => {
       <About />
       <Art />
       <Menu />
+      <Contact />
     </main>
   );
 };
